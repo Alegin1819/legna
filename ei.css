@@ -1,0 +1,222 @@
+body{
+    background-color: rgb(35, 52, 61);
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.hamburger{
+    color: white;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    margin-left: 25px;
+}
+.hamburger img{
+    width: 100%;
+    height: 100%;
+}
+.lista{
+    display: none;
+}
+
+h1{
+    color: white;
+}
+
+li,a{
+    text-decoration: none;
+    display: inline;
+    margin-left: 10%;
+    color: white;
+    border-bottom: 3px solid white;
+    
+}
+a:hover {
+    border-bottom:3px solid rgb(9, 61, 25);
+    font-size: 30px;
+    
+    
+}
+#logo{
+    width: 100%;
+    height: 200px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: white;
+}
+
+.benvenuti{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    border-bottom: 3px solid white;
+}
+.storia{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    text-align: center;
+}
+.storia img{
+    width: 100%;
+    height: 100%;
+}
+.storia1{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    text-align: center;
+}
+.storia1 img{
+    width: 100%;
+    height: 100%;
+}
+.storia2{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    text-align: center;
+}
+.storia2 img{
+    width: 100%;
+    height: 100%;
+}
+.cliccami{
+    color: white;
+}
+.descrizione{
+    width: 60%;
+    height: 150px;
+    margin-left: 20%;
+    text-align: center;
+    background-color: rgb(4, 27, 4);
+    
+}
+.dettagli{
+    margin-left: 40%;
+    width: 20%;
+    height: 50px;
+    color: white;
+    background-color: rgba(4, 27, 4);
+    border-radius: 30%;
+}
+.dettagli1{
+    margin-left: 40%;
+    top: 100px;
+    width: 20%;
+    height: 50px;
+    color: white;
+    background-color: rgb(4, 27, 4);
+    border-radius: 30%;
+    margin-top: 50px;
+}
+.descrizione1{
+    width: 60%;
+    margin-left: 20%;
+    height: 150px;
+   text-align: center;
+   background-color: rgb(4, 27, 4);
+
+}
+.legna{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    text-align: center;
+}
+.legna img{
+    width: 100%;
+    height: 100%;
+}
+#prodotti{
+   
+   width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+   
+}
+.im img{
+    width: 100%;
+    height: 100%;
+   
+}
+.im{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
+   
+}
+#contatti{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(4, 27, 4);
+    color: white;
+
+}
+.contatti{
+    padding: 3px;
+    
+}
+.galleria1 img{
+    width: 150px;
+    height: 150px;
+    display: inline;
+}
+
+@media screen  and (max-width: 770px){
+    li,a{
+        margin-left: 2%;
+    }
+    .descrizione{
+        
+        height: 250px;
+    }
+    .descrizione1{
+       
+        height: 420px;
+      
+    }
+    .dettagli{
+        width: 25%;
+        height: 60px;
+    }
+    .dettagli1{
+        width: 25%;
+        height: 60px;
+        margin-top: 120px;
+    }
+    .im{
+        width: 100%;
+        display: inline;
+        margin-bottom: 50px;
+    }
+    #prodotti{
+        padding-bottom: 200px;
+    }
+    a:hover {
+        
+        font-size: 20px;
+        
+        
+    }
+    #contatti{
+        height: 230px;
+    }
+   /* .lista{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        color: white;
+    }*/
+}
+@media screen and(min-width:330px) {
+    
+}
